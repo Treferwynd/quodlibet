@@ -259,7 +259,7 @@ class PanedAlbumsBrowser(Browser, util.InstanceTracker):
         self._sb_box.set_text(query)
         self._sb_box.changed()
 
-        pane.set_selected([])
+        pane.set_selected(None, True)
 
 
     def refresh_panes(self):
